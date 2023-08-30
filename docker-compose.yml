@@ -41,7 +41,7 @@ services:
     depends_on:
       - ncw_backend_demo
     container_name: ncw_web_demo
-    build: https://github.com/fireblocks/ncw-web-demo.git#docker
+    build: https://github.com/fireblocks/ncw-web-demo.git#main
     env_file: config/ncw_web_demo/env.txt
     ports:
       - "127.0.0.1:5173:5173"

@@ -1,0 +1,48 @@
+version: "3.8"
+
+networks:
+  default:
+    name: ncw_integraion
+
+volumes:
+  mysql_data:
+
+services:
+  tunnel:
+    container_name: tunnel
+    hostname: tunnel
+    build: tunnel
+    env_file: config/tunnel/env.txt
+
+  mysql:
+    container_name: mysql
+    hostname: mysql
+    env_file: config/mysql/env.txt
+    platform: linux/x86_64
+    image: mysql:5.7.36
+    volumes:
+      - ./config/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql:ro,delegated
+      - mysql_data:/var/lib/mysql:delegated
+    ports:
+      - "127.0.0.1:3306:3306"
+  
+  ncw_backend_demo:
+    depends_on:
+      - mysql
+      - tunnel
+    container_name: ncw_backend_demo
+    hostname: ncw_backend_demo
+    env_file: config/ncw_backend_demo/env.txt
+    build: https://github.com/fireblocks/ncw-backend-demo.git#main
+    ports:
+      - "127.0.0.1:3000:3000"
+
+  ncw_web_demo:
+    depends_on:
+      - ncw_backend_demo
+    container_name: ncw_web_demo
+    image: ncw-web-demo:latest
+    # build: https://github.com/fireblocks/ncw-web-demo.git#docker
+    env_file: config/ncw_web_demo/env.txt
+    ports:
+      - "127.0.0.1:5173:5173"

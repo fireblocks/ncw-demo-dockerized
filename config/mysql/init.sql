@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS `ncw_demo`;
+
+CREATE USER IF NOT EXISTS 'fireblocks'@'%' IDENTIFIED BY '1q2w3e4r';
+
+GRANT ALL PRIVILEGES ON `ncw_demo`.* TO 'fireblocks'@'%';
+
+FLUSH PRIVILEGES;

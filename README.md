@@ -81,7 +81,7 @@ DB_NAME=ncw_demo
 ```
 <br/>
 
-- `/config/ncw_web_demo/env.txt` - configuration file for the Frontend application. An example file would like this:
+- `/config/ncw_web_demo/env.txt` - configuration file for the Frontend application. An example file would look like this:
 ```js
 VITE_AUTOMATE_INITIALIZATION=true
 
@@ -93,7 +93,7 @@ VITE_NCW_SDK_ENV=sandbox
 ``` 
 <br/>
 
-+ `/config/tunnel/env.txt` - configuration file for the Localtunnel application. An example file would like this:
++ `/config/tunnel/env.txt` - configuration file for the Localtunnel application. An example file would look like this:
 ```js
 TUNNEL_SUBDOMAIN=my_ncw_subdomain
 TARGET_PORT=3000
@@ -102,7 +102,7 @@ TARGET_HOST=ncw_backend_demo
 
 <br/>
 
-+ `/config/mysql/env.txt` - configuration file for the MySQL application. An example file would like this:
++ `/config/mysql/env.txt` - configuration file for the MySQL application. An example file would look like this:
 ```js
 MYSQL_ROOT_PASSWORD=test
 ```
@@ -128,8 +128,8 @@ Please make sure to configure it properly in the Fireblocks console.
 </div>
 <br/>
 
-The Frontend application would run on: `http://localhost:5173/` by default.\
-The Backend application would run on: `http://localhost:3000/` by default.
+The Frontend application would run on: `http://localhost:5173` by default.\
+The Backend application would run on: `http://localhost:3000` by default.
 
 <div align="center" style="border-top: 1px solid #4e5259;">
   <h2> ⚖️ License:</h2>

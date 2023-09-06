@@ -1,16 +1,14 @@
 <div align="center">
+  <h1>NCW Web Fronted + Backend dockerized demo</h1>
+  <img src="./image/logo.svg" width="400px" heigth="200px">
   <div>
-    <h1>NCW Web Fronted + Backend dockerized demo</h1>
-    <img src="./image/logo.svg" width="400px" heigth="200px">
-      <div>
-        <a href="https://ncw-developers.fireblocks.com/docs">Fireblocks NCW Developer documentation</a>
-      </div>
-      <div>
-        <a href="https://developers.fireblocks.com/">Fireblocks Developer Portal</a>
-      </div>
-      <div>
-        <a href="https://www.fireblocks.com/developer-sandbox-sign-up/">Fireblocks Sandbox Sign Up</a>
-      </div>
+    <a href="https://ncw-developers.fireblocks.com/docs">Fireblocks NCW Developer documentation</a>
+  </div>
+  <div>
+    <a href="https://developers.fireblocks.com/">Fireblocks Developer Portal</a>
+  </div>
+  <div>
+    <a href="https://www.fireblocks.com/developer-sandbox-sign-up/">Fireblocks Sandbox Sign Up</a>
   </div>
 </div>
 
@@ -59,7 +57,7 @@ ISSUER_BASE_URL="https://dev-8333e0j12dmj123qweali.us.auth0.com"
 AUDIENCE="http://localhost:3000"
 
 # Fireblocks API 
-FIREBLOCKS_API_SECRET="-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCodFzlv2mxg82H\...\nqt1ADkJPmFybZIhEY+ubRIOf5w==\n-----END PRIVATE KEY-----"
+FIREBLOCKS_API_SECRET="-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAA\...\nqt1ADkJPmFybZIhEY+ubRIOf5w==\n-----END PRIVATE KEY-----"
 FIREBLOCKS_API_KEY_NCW_SIGNER="5f5d261f-973c-4f18-bc3e-b9b35dd214d6"
 FIREBLOCKS_API_KEY_NCW_ADMIN="e1607032-ad47-46b1-b358-69ab1785e738"
 FIREBLOCKS_API_BASE_URL="https://sandbox-api.fireblocks.io/"

@@ -1,4 +1,4 @@
-# NCW Web Fronted + Backend dockerized demo
+# NCW Web Fronted + Backend dockerized demo (WIP)
 
 ## Intro
 This repository contains a full Web demo of the Fireblocks Non Custodial Wallet application.

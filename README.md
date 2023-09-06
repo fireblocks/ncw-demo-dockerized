@@ -16,7 +16,9 @@ There are a few configuration files that should be configured before running the
 - `/config/ncw_backend_demo/env.txt` - configuration file for the backend application. An example file would like this:
 
 > **Note**
-> The example values are just mock values and do not represent real credentials.
+> The example values are just mock values and do not represent real credentials
+
+<br/>
 
 ```js
 NODE_ENV=production

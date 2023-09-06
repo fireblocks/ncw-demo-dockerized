@@ -2,17 +2,15 @@
 <div align="center">
   <div>
     <img src="./image/logo.svg" width="400px" heigth="200px">
-    <ul>
-      <li>
+      <div>
         <a href="https://ncw-developers.fireblocks.com/docs">Fireblocks NCW Developer documentation</a>
-      </li>
-      <li style="margin-left: 2rem;">
+      </div>
+      <div>
         <a href="https://developers.fireblocks.com/">Fireblocks Developer Portal</a>
-      </li>
-      <li style="margin-left: 2rem;">
+      </div>
+      <div>
         <a href="https://www.fireblocks.com/developer-sandbox-sign-up/">Fireblocks Sandbox Sign Up</a>
-      </li>
-    </ul>
+      </div>
   </div>
 </div>
 

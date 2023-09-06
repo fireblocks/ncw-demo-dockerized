@@ -1,7 +1,8 @@
 <div align="center">
+  <img src="./image/logo.svg" width="400px" heigth="200px">
   <h1>NCW Full Stack Demo</h1>
   <br/>
-  <img src="./image/logo.svg" width="400px" heigth="200px">
+  <h3> Resources: </h3>
   <div>
     <a href="https://ncw-developers.fireblocks.com/docs">Fireblocks NCW Developer documentation</a>
   </div>
@@ -13,7 +14,7 @@
   </div>
 </div>
 <br/>
-<div align="center">
+<div align="center" style="border-top: 1px solid #4e5259;">
   <h2>Intro</h2>
 </div>
 
@@ -26,8 +27,9 @@ The application has the following components in it:
 
 Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fireblocks.com/docs) for getting a better understanding how the NCW feature works and some additional relevant concepts that would be needed for the Setup phase.
 
+<br/>
 
-<div align="center">
+<div align="center" style="border-top: 1px solid #4e5259;">
   <h2>Setup</h2>
 </div>
 
@@ -39,14 +41,15 @@ Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fir
 
 <br/> 
 
+<div align="center" style="border-top: 1px solid #4e5259;">
+  <h2>Configuration</h2>
+</div>
+
 > **Note**
 > The example values are just mock values and do not represent real credentials
 
 <br/>
 
-<div align="center">
-  <h2>Configuration</h2>
-</div>
 
 There are a few configuration files that should be configured before running the application.
 - `/config/ncw_backend_demo/env.txt` - configuration file for the backend application. An example file would like this:
@@ -106,14 +109,14 @@ MYSQL_ROOT_PASSWORD=test
 
 <br/>
 
-<div align="center">
+<div align="center" style="border-top: 1px solid #4e5259;">
   <h2>Running the application:</h2>
 </div>
 
 Run the following command:
 ```docker-compose up --build ```
 
-The application should start the build process and output the webhook URL that should be configured in your Fireblocks workspace.\
+The application should start the build process and output the webhook URL that should be configured in your Fireblocks console.\
 The webhook endpoint is exposed in the following route:
 
 `https://your_sub_domain.local.lt/api/webhook`
@@ -127,3 +130,9 @@ Please make sure to configure it properly in the Fireblocks console.
 
 The Frontend application would run on: `http://localhost:5173/` by default.\
 The Backend application would run on: `http://localhost:3000/` by default.
+
+<div align="center" style="border-top: 1px solid #4e5259;">
+  <h2>License:</h2>
+</div>
+
+Fireblocks Web Full Stack demo application is available under [MIT license](https://github.com/fireblocks/ncw-demo-dockerized/blob/main/LICENSE)

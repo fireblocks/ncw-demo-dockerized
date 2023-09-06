@@ -1,5 +1,5 @@
 # NCW Web Fronted + Backend dockerized demo
-<div style="display: flex; justify-content: center">
+<div align="center">
   <div>
     <img src="./image/logo.svg" width="400px" heigth="200px">
     <ul>

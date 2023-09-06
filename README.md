@@ -125,7 +125,7 @@ The webhook endpoint is exposed in the following route:
 Please make sure to configure it properly in the Fireblocks console.
 
 <div align="center">
-  <img src="./image/webhook.png" width="300px" heigth="400px">
+  <img src="./image/webhook.png" width="550px" heigth="400px">
 </div>
 <br/>
 

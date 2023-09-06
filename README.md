@@ -20,7 +20,7 @@
 </div>
 
 This repository contains a full Web demo of the Fireblocks Non Custodial Wallet application.\
-The application has the following components in it:\
+The application has the following components in it:
 - [Fireblocks React NCW Demo application](https://github.com/fireblocks/ncw-web-demo.git#main) - React demo application that utilizes the [Fireblocks NCW Web SDK](https://github.com/fireblocks/ncw-js-sdk).
 - [Fireblocks Backend Demo application]() - Node.js (Express) backend server that is being used by the Front End for proxying the communication to the Fireblocks API.
 - [Localtunnel](https://theboroer.github.io/localtunnel-www/) - Exposing your local development environment to the external world and specifically to Fireblocks Webhook service.
@@ -118,7 +118,15 @@ Run the following command:
 ```docker-compose up --build ```
 
 The application should start the build process and output the webhook URL that should be configured in your Fireblocks workspace.\
-The webhook endpoint is exposed in the following route: `https://your_sub_domain.local.lt/api/webhook` so please make sure to configure it properly in the Fireblocks console.
+The webhook endpoint is exposed in the following route:
+
+`https://your_sub_domain.local.lt/api/webhook`
+
+Please make sure to configure it properly in the Fireblocks console.
+
+<div align="center">
+  <img src="./image/webhook.png" width="300px" heigth="400px">
+</div>
 <br/>
 
 The Frontend application would run on: `http://localhost:5173/` by default.\

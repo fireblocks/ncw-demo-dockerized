@@ -1,10 +1,10 @@
 # NCW Web Fronted + Backend dockerized demo
 <div style="display: flex; justify-content: center">
   <div>
-    <img src="./image/logo.svg">
+    <img src="./image/logo.svg" width="100px" heigth="100px">
     <ul>
       <div style="display:flex;flex-direction:row;">
-      <li >
+      <li>
         <a href="https://ncw-developers.fireblocks.com/docs">Fireblocks NCW Developer documentation</a>
       </li>
       <li style="margin-left: 2rem;">

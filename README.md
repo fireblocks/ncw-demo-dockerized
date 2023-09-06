@@ -1,6 +1,6 @@
-# NCW Web Fronted + Backend dockerized demo
 <div align="center">
   <div>
+    <h1>NCW Web Fronted + Backend dockerized demo</h1>
     <img src="./image/logo.svg" width="400px" heigth="200px">
       <div>
         <a href="https://ncw-developers.fireblocks.com/docs">Fireblocks NCW Developer documentation</a>

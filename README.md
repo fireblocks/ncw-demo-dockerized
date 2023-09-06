@@ -10,11 +10,13 @@
   <div>
     <a href="https://www.fireblocks.com/developer-sandbox-sign-up/">Fireblocks Sandbox Sign Up</a>
   </div>
+</div>
 
 
 
-
+<div align="center">
 ## Intro
+</div>
 This repository contains a full Web demo of the Fireblocks Non Custodial Wallet application.
 The application has the following components in it:
 - [Fireblocks React NCW Demo application](https://github.com/fireblocks/ncw-web-demo.git#main) - React demo application that utilizes the [Fireblocks NCW Web SDK](https://github.com/fireblocks/ncw-js-sdk).
@@ -25,8 +27,9 @@ The application has the following components in it:
 Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fireblocks.com/docs) for getting a better understanding how the NCW feature works and some additional relevant concepts that would be needed for the Setup phase.
 
 
+<div align="center">
 ## Setup
-
+</div>
 1. Please make sure that you have gone through all the necessary steps for [workspace provisioning and setup](https://ncw-developers.fireblocks.com/docs/implementation-steps).
 
 2. Clone the repo to your machine:
@@ -42,8 +45,9 @@ Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fir
 
 <br/>
 
+<div align="center">
 ## Configuration
-
+</div>
 There are a few configuration files that should be configured before running the application.
 - `/config/ncw_backend_demo/env.txt` - configuration file for the backend application. An example file would like this:
 
@@ -102,7 +106,9 @@ MYSQL_ROOT_PASSWORD=test
 
 <br/>
 
+<div align="center">
 ## Running the application:
+</div>
 Run the following command:
 ```docker-compose up --build ```
 
@@ -112,4 +118,3 @@ The webhook endpoint is exposed in the following route: `https://your_sub_domain
 
 The Frontend application would run on: `http://localhost:5173/` by default.\
 The Backend application would run on: `http://localhost:3000/` by default.
-</div>

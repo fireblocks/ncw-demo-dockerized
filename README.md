@@ -8,10 +8,51 @@ The application has the following components in it:
 - [Localtunnel](https://theboroer.github.io/localtunnel-www/) - Exposing your local development environment to the external world and specifically to Fireblocks Webhook service.
 - MySQL Database.
 
+Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fireblocks.com/docs) for getting a better understanding how the NCW feature works and some additional relevant concepts that would be needed for the Setup phase.
+
 
 ## Setup
-There are a few configuration files that should be configured before 
+There are a few configuration files that should be configured before running the application.
+- `/config/ncw_backend_demo/env.txt` - configuration file for the backend application. An example file would like this:
 
+[!NOTE]<br>
+ The example values are just mock values and do not represent real credentials.
 
+```js
+NODE_ENV=production
 
+PORT=3000
+
+# Auth
+ISSUER_BASE_URL="https://dev-8333e0j12dmj123qweali.us.auth0.com"
+AUDIENCE="http://localhost:3000"
+
+# Fireblocks API 
+FIREBLOCKS_API_SECRET="-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCodFzlv2mxg82H\...\nqt1ADkJPmFybZIhEY+ubRIOf5w==\n-----END PRIVATE KEY-----"
+FIREBLOCKS_API_KEY_NCW_SIGNER="5f5d261f-973c-4f18-bc3e-b9b35dd214d6"
+FIREBLOCKS_API_KEY_NCW_ADMIN="e1607032-ad47-46b1-b358-69ab1785e738"
+FIREBLOCKS_API_BASE_URL="https://sandbox-api.fireblocks.io/"
+
+# Fireblocks sandbox webhook public key
+FIREBLOCKS_WEBHOOK_PUBLIC_KEY="-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw+fZuC+0vDYTf8fYnCN6\n71iHg98lPHBmafmqZqb+TUexn9sH6qNIBZ5SgYFxFK6dYXIuJ5uoORzihREvZVZP\n8DphdeKOMUrMr6b+Cchb2qS8qz8WS7xtyLU9GnBn6M5mWfjkjQr1jbilH15Zvcpz\nECC8aPUAy2EbHpnr10if2IHkIAWLYD+0khpCjpWtsfuX+LxqzlqQVW9xc6z7tshK\neCSEa6Oh8+ia7Zlu0b+2xmy2Arb6xGl+s+Rnof4lsq9tZS6f03huc+XVTmd6H2We\nWxFMfGyDCX2akEg2aAvx7231/6S0vBFGiX0C+3GbXlieHDplLGoODHUt5hxbPJnK\nIwIDAQAB\n-----END PUBLIC KEY-----"
+
+# Database
+DB_HOST=mysql
+DB_PORT=3306
+DB_USERNAME=ncw_user
+DB_PASSWORD=ncw_user_password
+DB_NAME=ncw_demo
+```
+<br/>
+
+- `/config/ncw_web_demo/env.txt` - configuration file for the Frontend application. An example file would like this:
+```js
+VITE_AUTOMATE_INITIALIZATION=true
+
+VITE_AUTH0_DOMAIN="https://dev-8333e0j12dmj123qweali.us.auth0.com"
+VITE_AUTH0_CLIENT_ID=mYl4sGaASGJ04zAnbWeBv7CrgNNtpR1F
+VITE_AUTH0_AUDIENCE="http://localhost:3000"
+VITE_BACKEND_BASE_URL="http://localhost:3000"
+VITE_NCW_SDK_ENV=sandbox
+``` 
 

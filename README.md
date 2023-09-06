@@ -3,7 +3,6 @@
   <div>
     <img src="./image/logo.svg" width="400px" heigth="200px">
     <ul>
-      <div style="display:flex;flex-direction:row;">
       <li>
         <a href="https://ncw-developers.fireblocks.com/docs">Fireblocks NCW Developer documentation</a>
       </li>
@@ -13,7 +12,6 @@
       <li style="margin-left: 2rem;">
         <a href="https://www.fireblocks.com/developer-sandbox-sign-up/">Fireblocks Sandbox Sign Up</a>
       </li>
-      <div>
     </ul>
   </div>
 </div>

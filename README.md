@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>NCW Web Fronted + Backend dockerized demo</h1>
+  <h1>NCW Full Stack Demo</h1>
   <img src="./image/logo.svg" width="400px" heigth="200px">
   <div>
     <a href="https://ncw-developers.fireblocks.com/docs">Fireblocks NCW Developer documentation</a>
@@ -10,7 +10,7 @@
   <div>
     <a href="https://www.fireblocks.com/developer-sandbox-sign-up/">Fireblocks Sandbox Sign Up</a>
   </div>
-</div>
+
 
 
 
@@ -112,3 +112,4 @@ The webhook endpoint is exposed in the following route: `https://your_sub_domain
 
 The Frontend application would run on: `http://localhost:5173/` by default.\
 The Backend application would run on: `http://localhost:3000/` by default.
+</div>

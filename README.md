@@ -1,5 +1,6 @@
 <div align="center">
   <h1>NCW Full Stack Demo</h1>
+  <br/>
   <img src="./image/logo.svg" width="400px" heigth="200px">
   <div>
     <a href="https://ncw-developers.fireblocks.com/docs">Fireblocks NCW Developer documentation</a>
@@ -17,8 +18,9 @@
 <div align="center">
 <h2>Intro</h2>
 </div>
-This repository contains a full Web demo of the Fireblocks Non Custodial Wallet application.
-The application has the following components in it:
+
+This repository contains a full Web demo of the Fireblocks Non Custodial Wallet application.\
+The application has the following components in it:\
 - [Fireblocks React NCW Demo application](https://github.com/fireblocks/ncw-web-demo.git#main) - React demo application that utilizes the [Fireblocks NCW Web SDK](https://github.com/fireblocks/ncw-js-sdk).
 - [Fireblocks Backend Demo application]() - Node.js (Express) backend server that is being used by the Front End for proxying the communication to the Fireblocks API.
 - [Localtunnel](https://theboroer.github.io/localtunnel-www/) - Exposing your local development environment to the external world and specifically to Fireblocks Webhook service.
@@ -30,6 +32,7 @@ Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fir
 <div align="center">
   <h2>Setup</h2>
 </div>
+
 1. Please make sure that you have gone through all the necessary steps for [workspace provisioning and setup](https://ncw-developers.fireblocks.com/docs/implementation-steps).
 
 2. Clone the repo to your machine:
@@ -48,6 +51,7 @@ Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fir
 <div align="center">
   <h2>Configuration</h2>
 </div>
+
 There are a few configuration files that should be configured before running the application.
 - `/config/ncw_backend_demo/env.txt` - configuration file for the backend application. An example file would like this:
 
@@ -109,6 +113,7 @@ MYSQL_ROOT_PASSWORD=test
 <div align="center">
   <h2>Running the application:</h2>
 </div>
+
 Run the following command:
 ```docker-compose up --build ```
 

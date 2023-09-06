@@ -1,4 +1,24 @@
-# NCW Web Fronted + Backend dockerized demo (WIP)
+# NCW Web Fronted + Backend dockerized demo
+<div style="display: flex; justify-content: center">
+  <div>
+    <img src="./image/logo.svg">
+    <ul>
+      <div style="display:flex;flex-direction:row;">
+      <li >
+        <a href="https://ncw-developers.fireblocks.com/docs">Fireblocks NCW Developer documentation</a>
+      </li>
+      <li style="margin-left: 2rem;">
+        <a href="https://developers.fireblocks.com/">Fireblocks Developer Portal</a>
+      </li>
+      <li style="margin-left: 2rem;">
+        <a href="https://www.fireblocks.com/developer-sandbox-sign-up/">Fireblocks Sandbox Sign Up</a>
+      </li>
+      <div>
+    </ul>
+  </div>
+</div>
+
+
 
 ## Intro
 This repository contains a full Web demo of the Fireblocks Non Custodial Wallet application.
@@ -92,9 +112,9 @@ MYSQL_ROOT_PASSWORD=test
 Run the following command:
 ```docker-compose up --build ```
 
-The application should start the build process and output the webhook URL that should be configured in your Fireblocks workspace.
+The application should start the build process and output the webhook URL that should be configured in your Fireblocks workspace.\
 The webhook endpoint is exposed in the following route: `https://your_sub_domain.local.lt/api/webhook` so please make sure to configure it properly in the Fireblocks console.
 <br/>
 
-The Frontend application would run on: `http://localhost:5173/` by default.
+The Frontend application would run on: `http://localhost:5173/` by default.\
 The Backend application would run on: `http://localhost:3000/` by default.

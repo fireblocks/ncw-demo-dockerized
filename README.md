@@ -110,7 +110,7 @@ MYSQL_ROOT_PASSWORD=test
 <br/>
 
 <div align="center" style="border-top: 1px solid #4e5259;">
-  <h2> 🔥 Running the application:</h2>
+  <h2> 🔥 Running the application</h2>
 </div>
 
 Run the following command:
@@ -132,7 +132,7 @@ The Frontend application would run on: `http://localhost:5173` by default.\
 The Backend application would run on: `http://localhost:3000` by default.
 
 <div align="center" style="border-top: 1px solid #4e5259;">
-  <h2> ⚖️ License:</h2>
+  <h2> ⚖️ License</h2>
 </div>
 
 Fireblocks Web Full Stack demo application is available under [MIT license](https://github.com/fireblocks/ncw-demo-dockerized/blob/main/LICENSE)

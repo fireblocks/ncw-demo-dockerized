@@ -12,13 +12,26 @@ Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fir
 
 
 ## Setup
-There are a few configuration files that should be configured before running the application.
-- `/config/ncw_backend_demo/env.txt` - configuration file for the backend application. An example file would like this:
+
+1. Please make sure that you have gone through all the necessary steps for [workspace provisioning and setup](https://ncw-developers.fireblocks.com/docs/implementation-steps).
+
+2. Clone the repo to your machine:
+```git clone https://github.com/fireblocks/ncw-demo-dockerized.git```
+
+3. Move into the cloned directory:
+```cd ncw-demo-dockerized```
+
+<br/> 
 
 > **Note**
 > The example values are just mock values and do not represent real credentials
 
 <br/>
+
+## Configuration
+
+There are a few configuration files that should be configured before running the application.
+- `/config/ncw_backend_demo/env.txt` - configuration file for the backend application. An example file would like this:
 
 ```js
 NODE_ENV=production
@@ -57,4 +70,31 @@ VITE_AUTH0_AUDIENCE="http://localhost:3000"
 VITE_BACKEND_BASE_URL="http://localhost:3000"
 VITE_NCW_SDK_ENV=sandbox
 ``` 
+<br/>
 
++ `/config/tunnel/env.txt` - configuration file for the Localtunnel application. An example file would like this:
+```js
+TUNNEL_SUBDOMAIN=my_ncw_subdomain
+TARGET_PORT=3000
+TARGET_HOST=ncw_backend_demo
+```
+
+<br/>
+
++ `/config/mysql/env.txt` - configuration file for the MySQL application. An example file would like this:
+```js
+MYSQL_ROOT_PASSWORD=test
+```
+
+<br/>
+
+## Running the application:
+Run the following command:
+```docker-compose up --build ```
+
+The application should start the build process and output the webhook URL that should be configured in your Fireblocks workspace.
+The webhook endpoint is exposed in the following route: `https://your_sub_domain.local.lt/api/webhook` so please make sure to configure it properly in the Fireblocks console.
+<br/>
+
+The Frontend application would run on: `http://localhost:5173/` by default.
+The Backend application would run on: `http://localhost:3000/` by default.

@@ -12,11 +12,9 @@
     <a href="https://www.fireblocks.com/developer-sandbox-sign-up/">Fireblocks Sandbox Sign Up</a>
   </div>
 </div>
-
-
-
+<br/>
 <div align="center">
-<h2>Intro</h2>
+  <h2>Intro</h2>
 </div>
 
 This repository contains a full Web demo of the Fireblocks Non Custodial Wallet application.\
@@ -34,10 +32,8 @@ Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fir
 </div>
 
 1. Please make sure that you have gone through all the necessary steps for [workspace provisioning and setup](https://ncw-developers.fireblocks.com/docs/implementation-steps).
-
 2. Clone the repo to your machine:
 ```git clone https://github.com/fireblocks/ncw-demo-dockerized.git```
-
 3. Move into the cloned directory:
 ```cd ncw-demo-dockerized```
 

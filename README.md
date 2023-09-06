@@ -21,9 +21,9 @@
 This repository contains a full Web demo of the Fireblocks Non Custodial Wallet application.\
 The application has the following components in it:
 - [Fireblocks React NCW Demo application](https://github.com/fireblocks/ncw-web-demo.git#main) - React demo application that utilizes the [Fireblocks NCW Web SDK](https://github.com/fireblocks/ncw-js-sdk).
-- [Fireblocks Backend Demo application]() - Node.js (Express) backend server that is being used by the Front End for proxying the communication to the Fireblocks API.
-- [Localtunnel](https://theboroer.github.io/localtunnel-www/) - Exposing your local development environment to the external world and specifically to Fireblocks Webhook service.
-- MySQL Database.
+- [Fireblocks Backend Demo application]() - Node.js (Express) backend server that is being used by the Front End for proxying the communication to the Fireblocks API
+- [Localtunnel](https://theboroer.github.io/localtunnel-www/) - Exposing your local development environment to the external world and specifically to Fireblocks Webhook service
+- MySQL Database
 
 Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fireblocks.com/docs) for getting a better understanding how the NCW feature works and some additional relevant concepts that would be needed for the Setup phase.
 

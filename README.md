@@ -15,7 +15,7 @@
 
 
 <div align="center">
-## Intro
+<h2>Intro</h2>
 </div>
 This repository contains a full Web demo of the Fireblocks Non Custodial Wallet application.
 The application has the following components in it:
@@ -28,7 +28,7 @@ Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fir
 
 
 <div align="center">
-## Setup
+  <h2>Setup</h2>
 </div>
 1. Please make sure that you have gone through all the necessary steps for [workspace provisioning and setup](https://ncw-developers.fireblocks.com/docs/implementation-steps).
 
@@ -46,7 +46,7 @@ Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fir
 <br/>
 
 <div align="center">
-## Configuration
+  <h2>Configuration</h2>
 </div>
 There are a few configuration files that should be configured before running the application.
 - `/config/ncw_backend_demo/env.txt` - configuration file for the backend application. An example file would like this:
@@ -107,7 +107,7 @@ MYSQL_ROOT_PASSWORD=test
 <br/>
 
 <div align="center">
-## Running the application:
+  <h2>Running the application:</h2>
 </div>
 Run the following command:
 ```docker-compose up --build ```

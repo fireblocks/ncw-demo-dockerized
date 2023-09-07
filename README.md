@@ -30,7 +30,7 @@ Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fir
 <br/>
 
 <div align="center" style="border-top: 1px solid #4e5259;">
-  <h2> 🔨 Setup</h2>
+  <h2> 🛠️ Configuration & Setup</h2>
 </div>
 
 1. Please make sure that you have gone through all the necessary steps for [workspace provisioning and setup](https://ncw-developers.fireblocks.com/docs/implementation-steps).
@@ -40,10 +40,6 @@ Please make sure to checkout our [NCW Developer docs](https://ncw-developers.fir
 ```cd ncw-demo-dockerized```
 
 <br/> 
-
-<div align="center" style="border-top: 1px solid #4e5259;">
-  <h2> 🔧 Configuration</h2>
-</div>
 
 > **Note**
 > The example values are just mock values and do not represent real credentials

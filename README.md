@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./image/logo.svg" width="400px" heigth="200px">
-  <h1>NCW Full Stack Demo</h1>
+  <h1>NCW Full Stack Demo Application</h1>
   <br/>
   <h3> Resources: </h3>
   <div>

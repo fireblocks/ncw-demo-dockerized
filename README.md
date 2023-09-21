@@ -82,10 +82,7 @@ DB_NAME=ncw_demo
 ```js
 VITE_AUTOMATE_INITIALIZATION=true
 
-VITE_AUTH0_DOMAIN="https://dev-8333e0j12dmj123qweali.us.auth0.com"
-VITE_AUTH0_CLIENT_ID=mYl4sGaASGJ04zAnbWeBv7CrgNNtpR1F
-VITE_AUTH0_AUDIENCE="http://localhost:3000"
-VITE_BACKEND_BASE_URL="http://localhost:3000"
+VITE_BACKEND_BASE_URL=<backend_server_base_url>
 VITE_NCW_SDK_ENV=sandbox
 ``` 
 <br/>

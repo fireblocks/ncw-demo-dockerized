@@ -55,9 +55,10 @@ NODE_ENV=production
 
 PORT=3000
 
-# Auth
-ISSUER_BASE_URL="https://dev-8333e0j12dmj123qweali.us.auth0.com"
-AUDIENCE="http://localhost:3000"
+# Auth (Firebase demo example)
+JWKS_URI=https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com
+ISSUER=https://securetoken.google.com/fireblocks-sdk-demo
+AUDIENCE=fireblocks-sdk-demo
 
 # Fireblocks API 
 FIREBLOCKS_API_SECRET="-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAA\...\nqt1ADkJPmFybZIhEY+ubRIOf5w==\n-----END PRIVATE KEY-----"

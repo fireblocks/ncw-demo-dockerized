@@ -54,6 +54,7 @@ There are a few configuration files that should be configured before running the
 NODE_ENV=production
 
 PORT=3000
+CMC_PRO_API_KEY=""
 
 # Auth (Firebase demo example)
 JWKS_URI=https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com
